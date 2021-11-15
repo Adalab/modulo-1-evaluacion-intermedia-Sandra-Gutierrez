@@ -2,7 +2,9 @@
 **** variables css **** 
 **********************/
 :root{
-	--colorTitle: #000;
+	--colorTextMenu: #4a4a4a;
+	--colorTitleMain: #3CDBC0;
+	--colorBackground: #FFFFFF;
 }
 
 
