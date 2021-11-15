@@ -60,6 +60,9 @@
 	text-align: center;
 	font-size: 30px;
 }
+.main_title {
+	max-width: 500px;
+}
 
 /********************** 
 **** media queries **** 
@@ -79,8 +82,5 @@
 	}
 	.main{
 		font-size: 40px;
-	}
-	.main_title {
-		max-width: 500px;
 	}
 }
