@@ -7,8 +7,6 @@
 	--colorBackground: #FFFFFF;
 }
 
-
-
 /********************** 
 **** Header **** 
 **********************/
@@ -63,15 +61,26 @@
 	font-size: 30px;
 }
 
-
-
-
-/********************** 
-******** footer ******* 
-**********************/
-
-
-
 /********************** 
 **** media queries **** 
 **********************/
+@media all and (min-width:768px){
+	.header{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.header_logo{
+		margin: 20px 0px 20px 30px;
+	}
+	.header_list{
+		margin-right: 30px;
+	}
+	.main{
+		font-size: 40px;
+	}
+	.main_title {
+		max-width: 500px;
+	}
+}
